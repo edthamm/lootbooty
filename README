@@ -1,0 +1,31 @@
+##########################################################################################
+####### HAVOC-APPS: Lo0tBo0ty Wifi-To0lz 					##########
+####### Created by: PuNk1nPo0p        		  				##########
+####### "Right and Wrong are Black and White, Law is often grey, choose wisely"	##########
+##########################################################################################
+
+####### INSTALLING #######
+For the overly paranoid's like me I reccomend you install this software on a clean VM
+running Ubuntu 12.04 and not your primary baitin-station.  It should work either way, just
+understand the installer will download a number of required libraries and make several 
+configuration changes to your systems DHCP, routing tables and interfaces etc.
+
+0. sudo -i (login as root)
+1. apt-get install ruby1.9.3 git
+2. gem install colorize
+3. git clone https://github.com/PuNk1nPo0p/lootbooty.git
+4. cd lootbooty
+5. ./sysprep.rb
+6. Select option 1 (watch the apt-get screen, it will require a "y" to continue
+7. Once the install has completed select option 3 to exit sysprep
+8. ./lo0tbo0ty.rb 
+ 
+###### TESTED WiFi ADAPTERS #######
+Alfa AWUS051NH
+Alfa AWUS036NHA
+
+###### DISCLAIMER ######
+This tool was written by a "hacker", and or a socially awkward deviate with little to no self
+confidence and questionable motives.  With that in mind, do your research, check out the code,
+get familiar with whats its doing before using it, and as always you're using this at your
+own risk with your own motivations... hopefully good ones! Happy Hacking!
